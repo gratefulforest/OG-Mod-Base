@@ -589,6 +589,7 @@ bool run_build_actor(const std::string& mdl_name,
   // MercSwapData out;
   // merc_convert(out, extract_data);
   // Set up joints:
+  skin_idx = nullptr
   if (skin_idx) {
     // read skeleton data out of GLTF
     auto skeleton_joints = extract_skeleton(model, *skin_idx);
