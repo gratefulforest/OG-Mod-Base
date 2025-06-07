@@ -1663,6 +1663,10 @@
 ;; requires a .glb model file in custom_assets/jak1/models/custom_levels
 ;; to also generate a collide-mesh, add :gen-mesh #t
 (build-actor "test-actor" :gen-mesh #t)
+(build-actor "WrongBoneVisualsMisaligned" :gen-mesh #t)
+(build-actor "WrongBoneVisualsAligned" :gen-mesh #t)
+(build-actor "MultipleMaterials" :gen-mesh #t)
+(build-actor "AttachToDaxter" :gen-mesh #t)
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Game Engine Code
